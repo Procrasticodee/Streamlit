@@ -13,7 +13,7 @@ if "initialized" not in st.session_state:
 
 
 st.title("One-Click Blog Automation")
-st.markdown("### Enter all blog details manually. Nothing is auto-generated.")
+st.markdown("### Enter all blog details.")
 
 # 💡 User inputs inside a form
 with st.form("blog_form"):
